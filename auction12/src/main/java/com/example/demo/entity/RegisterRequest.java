@@ -5,7 +5,6 @@ package com.example.demo.entity;
 public class RegisterRequest {
     private String name;
     private String email;
-    private String accounttype;
     private String password;
     private String confirmPassword;
 
@@ -15,7 +14,7 @@ public class RegisterRequest {
     public RegisterRequest(String name, String email, String Accounttype, String password, String confirmPassword) {
         this.name = name;
         this.email = email;
-        this.accounttype= Accounttype;
+    
         this.password = password;
         this.confirmPassword = confirmPassword;
     }
@@ -36,10 +35,7 @@ public class RegisterRequest {
         this.email = email;
     }
 
-  
-    public String getAccounttype() {
-        return accounttype;
-    }
+
 
     public void setAccounttype(String accounttype) {
         accounttype = accounttype;

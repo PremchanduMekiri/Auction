@@ -17,7 +17,6 @@ public class Users {
 
     private String email;
     private String password;
-    private String Accounttype;
    
     private String status;
     
